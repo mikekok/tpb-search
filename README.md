@@ -1,4 +1,4 @@
-# leetx
+# tpb-search
 A Node.js module to search for torrents at The Pirate Bay tracker.
 
 ## Installation

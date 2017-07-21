@@ -17,6 +17,7 @@ module.exports = {
         torrent.seeders = $(this).find('td:nth-child(3)').text()
         torrent.leechers = $(this).find('td:nth-child(4)').text()
         torrent.url = tpbURL + $(this).find('a.detLink').attr('href')
+        torrent.magnet = $(this).find('td:nth-child(2)').find('a:nth-child(2)').attr('href')
         if (torrent.name !== '') {
           torrents.push(torrent)
         }
